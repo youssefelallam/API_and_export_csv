@@ -2,7 +2,7 @@ from django.db.models.query import QuerySet
 from django.shortcuts import render
 from .models import Prod
 from .serializers import prodSerializer
-from rest_framework import generics, serializers
+from rest_framework import generics
 from django.http import HttpResponse
 import csv
 
